@@ -15,3 +15,6 @@ yes|sudo dnf remove gnome-weather
 yes|dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 yes|dnf install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-rawhide.noarch.rpm
 yes|sudo dnf install vlc
+yes|sudo dnf install pip
+yes|sudo dnf install code
+yes|sudo dnf install foliate
