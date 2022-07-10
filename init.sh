@@ -18,6 +18,7 @@ sudo dnf -y -q remove gnome-calculator
 git config --global user.name brayo
 git config --global user.email vukubrian@gmail.com
 
+timedatectl set-timezone Africa/Nairobi
 sudo dnf -y -q install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-qelease-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y -q install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-qelease-qawhide.noarch.rpm
 sudo dnf -y -q install vlc
