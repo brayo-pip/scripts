@@ -12,11 +12,18 @@ sudo dnf -y remove gnome-connections
 sudo dnf -y remove gnome-contacts
 sudo dnf -y remove gnome-help
 sudo dnf -y remove gnome-weather
+sudo dnf -y remove yelp
+sudo dnf -y remove gnome-calendar
+sudo dnf -y remove gnome-calculator
+git config --global user.name brayo
+git config --global user.email vukubrian@gmail.com
+
 sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-rawhide.noarch.rpm
 sudo dnf -y install vlc
-sudo dnf -y install pip
+sudo dnf -y install foliate
 yes|sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 yes|sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 sudo dnf -y install code
-sudo dnf -y install foliate
+sudo dnf -y install pip
+
