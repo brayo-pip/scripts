@@ -17,6 +17,9 @@ sudo dnf -y -q remove gnome-calculator
 sudo dnf -y -q remove yelp
 git config --global user.name brayo
 git config --global user.email vukubrian@gmail.com
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+gsettings set org.gnome.desktop.wm.preferences focus-mode 'sloppy'
 
 timedatectl set-timezone Africa/Nairobi
 sudo dnf -y -q install gh
