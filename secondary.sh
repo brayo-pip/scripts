@@ -1,5 +1,5 @@
 sudo dnf -y install golang
-git clone https://github.com/brayo-pip/xkcd-golang
+git clone https://github.com/brayo-pip/xkcd-go
 
 sudo dnf -y install snapd
 sudo snap install spotify # expect device not initialized error
