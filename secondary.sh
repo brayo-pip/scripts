@@ -7,3 +7,5 @@ sudo snap install discord
 
 flatpak install flathub com.spotify.Client
 flatpak run com.spotify.Client
+
+echo 🧡✘🤖
