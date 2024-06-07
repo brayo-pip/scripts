@@ -24,6 +24,7 @@ sudo dnf -y -q install gh
 sudo dnf -y -q install gnome-chess
 sudo dnf -y -q install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf -y -q install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-rawhide.noarch.rpm
+sudo dnf -y -q install ffmpeg --allowerasing
 sudo dnf -y -q install vlc
 sudo dnf -y -q install foliate
 sudo dnf -y -q install pip
