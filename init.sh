@@ -12,7 +12,7 @@ sudo dnf -y -q remove gnome-weather
 sudo dnf -y -q remove gnome-calendar
 sudo dnf -y -q remove gnome-calculator
 sudo dnf -y -q remove yelp
-git config --global user.name brayo
+git config --global user.name Brayo
 git config --global user.email vukubrian@gmail.com
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
